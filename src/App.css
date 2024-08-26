@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(77, 107, 93);
+}
+main{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(250, 238, 214);
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top:80px;
+  margin-bottom: 20px;
+  border: solid black;
+  border-top: 0cap;
+  border-radius: 20px;
+}
+h1{
+  background-color: rgb(255, 201, 71) ;
+ border-radius: 15px;
+ border: solid ;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  padding: 20px 10px;
+}
+.output{
+  padding: 10px 5px;
+  border-radius: 9999px;
+  background-color:rgb(255, 201, 71)  ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid black;
+}
+.innerData{
+
+  width: 70%;
+}
+.slider-input
+{
+  width: 100%;
+  margin-top: 5px;
+}
